@@ -1,0 +1,4 @@
+'use client';
+import * as AccordionPrimitive from '@radix-ui/react-accordion';
+import { Plus } from 'lucide-react';
+export function FAQ({ items }: { items: { q: string; a: string }[] }) { return <AccordionPrimitive.Root type="single" collapsible className="border-t border-border">{items.map(({ q, a }) => <AccordionPrimitive.Item value={q} key={q} className="border-b border-border"><AccordionPrimitive.Header><AccordionPrimitive.Trigger className="group flex w-full items-center justify-between gap-5 py-6 text-left font-medium focus-visible:outline-2 focus-visible:outline-primary">{q}<Plus className="size-5 shrink-0 transition-transform group-data-[state=open]:rotate-45" /></AccordionPrimitive.Trigger></AccordionPrimitive.Header><AccordionPrimitive.Content className="accordion-content overflow-hidden"><p className="max-w-2xl pb-6 text-muted-foreground leading-relaxed">{a}</p></AccordionPrimitive.Content></AccordionPrimitive.Item>)}</AccordionPrimitive.Root>; }

@@ -1,0 +1,6 @@
+import type { Metadata } from 'next';
+import { SiteHeader } from '@/components/site-header';
+import { SiteFooter } from '@/components/shared';
+import './globals.css';
+export const metadata: Metadata = { metadataBase: new URL('https://nicevuc-njua-academy.vividcod129.chatgpt.site'), title: { default: 'NICEVUC & Njua Academy | A home. A future.', template: '%s | NICEVUC & Njua Academy' }, description: 'A safe home, a quality education, and a brighter future for vulnerable children in Cameroon. Discover NICEVUC Children’s Home and Njua Academy.', openGraph: { type: 'website', locale: 'en_GB', siteName: 'NICEVUC & Njua Academy', images: [{ url: '/images/hero.jpg', width: 2000, height: 1344, alt: 'Njua Academy pupils with their teachers and founder' }] }, icons: { icon: '/favicon.svg' }, robots: { index: false, follow: false } };
+export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) { return <html lang="en"><body><a className="skip-link" href="#main">Skip to content</a><SiteHeader /><main id="main">{children}</main><SiteFooter /></body></html>; }
