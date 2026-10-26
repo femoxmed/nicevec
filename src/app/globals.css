@@ -11,3 +11,5 @@
 
 /* Original NICEVUC palette: red and cream, with blue for the children’s home. */
 .brand{color:#1b5fc1}.home-theme{--primary:#1b5fc1}.home-theme em{color:#1b5fc1}.home-theme .eyebrow>span:empty{background:#1b5fc1}.home-theme .programmes{background:#eef4fd}.home-theme .support-cta{--primary:#c8101e}.home-theme .support-cta em{color:#f2b33d}.programme-grid>div:first-child .programme-description .eyebrow,.programme-grid>div:first-child .programme-description .text-link{color:#1b5fc1}.programme-grid>div:first-child .programme-description .text-link{border-color:#1b5fc140}
+
+@media(prefers-reduced-motion:reduce){.scroll-reveal{opacity:1!important;transform:none!important}}

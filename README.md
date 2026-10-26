@@ -39,3 +39,5 @@ The deployment is private by default and robots metadata is noindex. Set the fin
 ## Brand palette
 
 Colours match the original nicevec.com stylesheet: red `#c8101e`, deep red `#a80c18`, cream `#fbf7f2`, sand `#f3ebe0`, gold `#f2b33d`, ink `#1d1416`, and children’s home blue `#1b5fc1` with pale blue `#eef4fd`.
+
+Scroll animation uses the shared `Reveal` component: a 24px rise and 650ms fade, triggered once when 12% enters the viewport. Card groups use short stagger delays capped at 240ms. Reduced-motion and JavaScript-disabled visitors see content immediately.
