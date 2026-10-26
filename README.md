@@ -35,3 +35,7 @@ Forms validate input and prepare a message the visitor explicitly sends with ema
 The supplied PDFs spell the organisation NICEVUC; the existing domain is nicevec.com. This build follows the PDFs. Confirm the 2027/2028 transition and tuition-free launch dates, administration fee eligibility, current admissions availability, first Class 6 results, and contact details. The documents use the same academic year for transition and launch, so the site asks families to confirm arrangements with the office.
 
 The deployment is private by default and robots metadata is noindex. Set the final production domain in `src/app/layout.tsx`, enable indexing when public, and configure domain redirects when replacing the old site. Forms need no backend; add a delivery service only if direct website submission is desired. Typography pairs Fraunces for expressive headings and italic accents with Outfit for body copy, navigation, and controls. Google Fonts are loaded from Google's stylesheet endpoint with local system fallbacks.
+
+## Brand palette
+
+Colours match the original nicevec.com stylesheet: red `#c8101e`, deep red `#a80c18`, cream `#fbf7f2`, sand `#f3ebe0`, gold `#f2b33d`, ink `#1d1416`, and children’s home blue `#1b5fc1` with pale blue `#eef4fd`.
